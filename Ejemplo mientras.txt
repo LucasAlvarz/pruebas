@@ -1,0 +1,15 @@
+Algoritmo suma_100primeros
+	Definir i, sumador Como Entero;
+	
+	Sumador=0;
+	i=1;
+	
+	Mientras i<=100 Hacer
+		i=i+1;
+		Sumador=Sumador+i;
+		
+	FinMientras
+	
+	Escribir "La suma es ", Sumador;
+	
+FinAlgoritmo
